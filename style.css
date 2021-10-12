@@ -164,7 +164,7 @@ h1 {
 nav.nav-dark {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   color: var(--light);
   background-color: var(--dark);
 }
@@ -189,7 +189,7 @@ nav.nav-dark a:hover {
 nav.nav-light {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   color: var(--dark);
   background-color: var(--gray);
 }
@@ -229,7 +229,7 @@ a:hover {
 /* Buttons */
 
 .btn {
-  font-family: inherit;
+  font-family: 'Space Mono', monospace;
   font-size: 1rem;
   padding: 0.75rem 2rem;
   border: 1px solid var(--dark);
