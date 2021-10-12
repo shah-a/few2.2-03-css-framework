@@ -1,0 +1,203 @@
+/* Space Grotesk (sans-serif)  */
+/* Inknut Antiqua (serif) */
+/* Space Mono (mono) */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* Variables */
+:root {
+  --gray: #9CA3AF;
+  --red: #F87171;
+  --yellow: #FBBF24;
+  --green: #34D399;
+  --blue: #60A5FA;
+  --indigo: #818CF8;
+  --purple: #A78BFA;
+  --pink: #F472B6;
+  --light: #F9FAFB;
+  --dark: #111827;
+}
+
+/* Spacing */
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/* Fonts */
+
+.font-sans {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-serif {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+.font-mono {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Body Text and Headings */
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* NavBars */
+
+nav.nav-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+nav.nav-dark > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.nav-dark li {
+  padding: 0 1rem;
+}
+
+nav.nav-dark a {
+  color: var(--yellow);
+}
+
+nav.nav-dark a:hover {
+  color: var(--blue);
+}
+
+nav.nav-light {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: var(--dark);
+  background-color: var(--gray);
+}
+
+nav.nav-light > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.nav-light li {
+  padding: 0 1rem;
+}
+
+nav.nav-light a {
+  color: var(--yellow);
+}
+
+nav.nav-light a:hover {
+  color: var(--blue);
+}
+
+/* Lists and Anchors */
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--yellow);
+}
+
+/* Colours */
+
+.text-gray {
+  color: var(--gray);
+}
+.text-red {
+  color: var(--red);
+}
+.text-yellow {
+  color: var(--yellow);
+}
+.text-green {
+  color: var(--green);
+}
+.text-blue {
+  color: var(--blue);
+}
+.text-indigo {
+  color: var(--indigo);
+}
+.text-purple {
+  color: var(--purple);
+}
+.text-pink {
+  color: var(--pink);
+}
+.text-light {
+  color: var(--light);
+}
+.text-dark {
+  color: var(--dark);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+.bg-red {
+  background-color: var(--red);
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.bg-green {
+  background-color: var(--green);
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.bg-indigo {
+  background-color: var(--indigo);
+}
+.bg-purple {
+  background-color: var(--purple);
+}
+.bg-pink {
+  background-color: var(--pink);
+}
+.bg-light {
+  background-color: var(--light);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
