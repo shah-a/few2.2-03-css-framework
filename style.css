@@ -138,6 +138,61 @@ a:hover {
   color: var(--yellow);
 }
 
+/* Buttons */
+
+.btn {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border: 1px solid var(--dark);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 150ms;
+}
+
+.btn:hover {
+  background-color: var(--light);
+}
+
+.btn-gray {
+  background-color: var(--gray);
+}
+.btn-red {
+  background-color: var(--red);
+}
+.btn-yellow {
+  background-color: var(--yellow);
+}
+.btn-green {
+  background-color: var(--green);
+}
+.btn-blue {
+  background-color: var(--blue);
+}
+.btn-indigo {
+  background-color: var(--indigo);
+}
+.btn-purple {
+  background-color: var(--purple);
+}
+.btn-pink {
+  background-color: var(--pink);
+}
+.btn-light {
+  background-color: var(--light);
+}
+.btn-light:hover {
+  color: var(--light);
+  background-color: var(--dark);
+}
+.btn-dark {
+  color: var(--light);
+  background-color: var(--dark);
+}
+.btn-dark:hover {
+  color: var(--dark);
+}
+
 /* Colours */
 
 .text-gray {
